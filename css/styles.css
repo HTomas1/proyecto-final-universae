@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: inherit;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: #fbfbfb;
+}
+
+.header {
+    flex-direction: row;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    top: 30px;
+    width: 100px;
+    max-width: 400px;
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+    height: 70px;
+    background-color: #ffffff;
+    border-radius: 70px;
+}
+
+.header .nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.logout {
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    width: 150px;
+    max-width: 400px;
+    margin: -48px 0 -48px auto ;
+    position: relative;
+    align-items: center;
+    height: 70px;
+    background-color: #ffffff;
+    border-radius: 70px;
+}
+
+.header .logout li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .logout a {
+    color: #000000;
+    text-decoration: none;
+}
+.comenzar {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 10px;
+    margin: 0;
+    color: #fff;
+    padding: 20px;
+    background: #277aa8;
+    position: relative;
+    display: content;
+    border: none;
+    border-radius: 70px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 70px;
+}
+
+.pt-hero-content {
+    padding: 0 0 60px 0;
+    position: relative;
+}
+
+.pt-hero-head {
+    display: flex;
+    height: 75vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.pt-hero-container {
+    padding: 0 40px;
+}
+
+.pt-hero-header h1 {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 90%;
+    text-align: center;
+    letter-spacing: -.05em;
+}
+
+.pt-hero-text {
+    margin: 80px auto 0 auto;
+    max-width: 720px;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 80%;
+    letter-spacing: -.02em;
+}
+
+.pt-hero-action {
+    padding: 45px 0 0 0;
+}

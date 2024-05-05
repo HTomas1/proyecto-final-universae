@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  background-color: #fbfbfb;
+}
+
+.nav-links {
+  display: block;
+  top: 22px;
+  width: 100px;
+  max-width: 400px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  background-color: #ffffff;
+  border-radius: 70px;
+}
+
+.header .nav-links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.header .nav-links a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.parent {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  box-sizing: border-box;
+  height: 80vh;
+}
+
+.login-left {
+  border-radius: 10px 0 0 10px;
+  background: #e9e9e8;
+  width: 40vw;
+}
+
+.login-right {
+  border-radius: 0 10px 10px 0;
+  background: #ffffff;
+  width: 40vw;
+}
+
+.login-inner {
+  display: flex;
+  flex-direction: column;
+  height: 380px;
+}
+
+.login-inner2 {
+  display: flex;
+  flex-direction: column;
+  height: 380px;
+}
+
+.login-header {
+  margin: 0 0 36px;
+  padding: 40px 0 0 35px;
+  height: 78px;
+}
+
+.login-logo {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 0 0 36px;
+  height: 162px;
+}
+
+.login-footer {
+  margin: 0 0 36px;
+  padding: 10px 0 0 35px;
+  width: 471px;
+  height: 32px;
+}
+
+.login-title {
+  display: flex;
+  margin: 0 0 36px;
+  padding: 40px 0 0 0;
+  width: 471px;
+}
+
+.login-content {
+  flex-wrap: nowrap;
+  margin: 0 36px 0 36px;  
+}
+
+.field {
+  position: relative;
+  display: inline-flex;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  padding: 25px 20px;
+  border-bottom: 1px solid #e9e9e9;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  justify-content: center;
+  align-items: center;
+  width: 99%;
+  height: 40px;
+}
+
+.boton {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222;
+  border: 0;
+  text-align: center;
+  cursor: pointer;
+  color: #ffffff;
+  margin-top: 1.5em;
+  width: 100%;
+  border-radius: 8px;
+  height: 52px;
+  padding: 0 1.6em;
+  font-size: 20px;
+}
+
+#logo {
+  display: flex;
+  width: 150px;
+  height: 150px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}

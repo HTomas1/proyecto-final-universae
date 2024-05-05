@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+
+.header {
+    flex-direction: row;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    top: 22px;
+    width: 100px;
+    max-width: 400px;
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+    height: 70px;
+    background-color: #ffffff;
+    border-radius: 70px;
+}
+
+.header .nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.logout {
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    width: 150px;
+    max-width: 400px;
+    margin: -48px 0 0 auto ;
+    position: relative;
+    align-items: center;
+    height: 70px;
+    background-color: #ffffff;
+    border-radius: 70px;
+}
+
+.header .logout li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .logout a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#map {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0
+}
+
+.listing-group {
+    font-size: 10px;
+    font-weight: 600;
+    position: absolute;
+    top: 80px;
+    right: 10px;
+    z-index: 1;
+    border-radius: 3px;
+    max-width: 20%;
+    columns: fff;
+}
+
+.listing-group input[type="checkbox"]:first-child + label {
+    border-radius: 3px 3px 0 0;
+}
+
+.listing-group label:last-child {
+    border-radius: 0 0 3px 3px;
+    border: none;    
+}
+
+.listing-group input[type="checkbox"] {
+    display: none;    
+}
+
+.listing-group input[type="checkbox"] + label {
+    background-color: #ffffff;
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.listing-group input[type="checkbox"] + label {
+    background-color: #ffffff;
+    text-transform: capitalize;
+}
+
+.listing-group input[type="checkbox"] + label:hover,
+.listing-group input[type="checkbox"]:checked + label:before {
+    content: "✅";
+    margin-right: 5px;
+}
+
+.mapboxgl-ctrl-geocoder--input {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.filter-group {
+    font: 12px/20px;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    z-index: 1;
+    border-radius: 3px;
+    width: 120px;
+    color: #000000;
+}
+
+.filter-group input[type='checkbox']:first-child + label {
+    border-radius: 15px 0 0 0;
+}
+
+.filter-group label:last-child {
+    border-radius: 0 0 0 15px;
+    border: none;
+}
+
+.filter-group input[type='checkbox'] {
+    display: none;
+}
+
+.filter-group input[type='checkbox'] + label {
+    background-color: #ffffff;
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.filter-group input[type='checkbox']:checked + label:before {
+    content: '✔';
+    margin-right: 5px;
+}
+
+.filter-js {
+    top: 350px;
+    width: 130px;
+}

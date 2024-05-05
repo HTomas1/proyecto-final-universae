@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rollermap - Register</title>
+  <link href="./css/styles-register.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+        <img src="" alt="">
+    </div>
+    <nav class="nav-links">
+        <ul>
+          <li><a href="./index.html">Inicio</a></li>
+        </ul>
+    </nav>
+  </header>
+  <section class="parent">
+    <div class="left">
+      <div class="register-left">
+        <div class="register-inner">
+          <h3 class="register-header">Bienvenido</h3>
+          <p class="register-logo"><svg id="logo" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 401.45 401.45">
+              <defs>
+                <style>
+                  .cls-1,
+                  .cls-2 {
+                    stroke: #1d1d1b;
+                    stroke-miterlimit: 10;
+                    stroke-width: 1.45px;
+                  }
+
+                  .cls-2 {
+                    fill: #fff;
+                  }
+                </style>
+              </defs>
+              <circle class="cls-1" cx="200.72" cy="200.72" r="200" />
+              <circle class="cls-2" cx="200.72" cy="200.72" r="155.8" />
+            </svg></p>
+          <p class="register-footer">¿Tienes cuenta?<strong><a href="./login.html"> Inicia sesión</a></strong></p>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+        <div class="container" id="formulario2">
+          <div class="register-right">
+            <div class="register-inner2">
+              <div class="register-content">
+                <h3 class="register-title">Regístrate</h3>
+                <div class="form">
+                  <form name="Nuevo usuario" method="POST" action="php/conexioncrearusuario.php">
+                    Usuario (*):<br>
+                    <input type="text" name="nickname" pattern="[a-zA-Z0-9]+" placeholder="Usuario" required><br>
+        
+                    Email (*):<br>
+                    <input type="email" name="email" placeholder="Email" required><br>
+
+                    Contraseña (*):<br>
+                    <input type="password" name="password" max-lenght="20" autocomplete="new-password" placeholder="Contraseña" required><br>
+        
+                    <input type="submit" name="enviar" class="boton" value="Registrarse">
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+</body>
+
+</html>
